@@ -5,6 +5,7 @@ import { personalInfo } from '../data/portfolioData';
 const navItems = [
   { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
+  { label: 'M&E Framework', href: '#meal-framework' },
   { label: 'Education', href: '#education' },
   { label: 'Skills', href: '#skills' },
   { label: 'Certifications', href: '#certifications' },

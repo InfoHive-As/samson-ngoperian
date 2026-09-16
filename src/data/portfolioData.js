@@ -266,6 +266,65 @@ export const initiativesData = [
   }
 ];
 
+export const mePerformanceMetrics = [
+  { label: "Data Quality Index", value: 95, color: "#0284c7" },
+  { label: "Community Engagement Rate", value: 92, color: "#2563eb" },
+  { label: "Reporting Timeliness", value: 88, color: "#0d9488" },
+  { label: "Conservation Target Achievement", value: 78, color: "#7c3aed" }
+];
+
+export const meQuarterlyTrends = [
+  { quarter: "Q1", target: 45, achieved: 30, pct: "67%" },
+  { quarter: "Q2", target: 62, achieved: 48, pct: "77%" },
+  { quarter: "Q3", target: 55, achieved: 58, pct: "105%" },
+  { quarter: "Q4", target: 78, achieved: 72, pct: "92%" }
+];
+
+export const mealMethodologySteps = [
+  {
+    step: "01",
+    title: "PLAN",
+    subtitle: "Objectives & LogFrames",
+    description: "Define project scope, logical frameworks (LogFrames), target indicators, data collection schedules, and key stakeholder information needs."
+  },
+  {
+    step: "02",
+    title: "MEASURE",
+    subtitle: "Indicator Frameworks",
+    description: "Establish baseline metrics, indicator tracking tables, disaggregation protocols, sampling strategies, and monitoring targets."
+  },
+  {
+    step: "03",
+    title: "COLLECT",
+    subtitle: "Mobile Data Capture",
+    description: "Deploy mobile data collection forms (Kobo Collect, ODK, Epicollect, CAPI) for structured field data collection in conservancies."
+  },
+  {
+    step: "04",
+    title: "VERIFY",
+    subtitle: "Data Quality Assurance",
+    description: "Conduct data cleaning, validation checks, outlier identification, data quality assessments, and field triangulation protocols."
+  },
+  {
+    step: "05",
+    title: "ANALYZE",
+    subtitle: "Statistical & Spatial Analysis",
+    description: "Execute biostatistical analysis (R, Python, SPSS, STATA) and spatial GIS mapping (QGIS, ArcGIS, EarthRanger, SMART Tools)."
+  },
+  {
+    step: "06",
+    title: "LEARN",
+    subtitle: "Evidence & Insights",
+    description: "Synthesize actionable evidence, compile quarterly M&E reports, hold learning workshops, and generate policy briefs."
+  },
+  {
+    step: "07",
+    title: "IMPROVE",
+    subtitle: "Adaptive Management",
+    description: "Apply monitoring findings to adjust project interventions, optimize resource allocation, and enhance conservation outcomes."
+  }
+];
+
 export const referencesData = [
   {
     name: "PETER MATUNGE",
@@ -280,3 +339,4 @@ export const referencesData = [
     phone: "+254 720 475 053"
   }
 ];
+

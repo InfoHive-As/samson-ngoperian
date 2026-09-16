@@ -1039,3 +1039,288 @@ a:hover {
     top: 2px;
   }
 }
+
+/* 7-Step MEAL Methodology & M&E Analytics Section */
+.meal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-bottom: 36px;
+}
+
+.meal-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.meal-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--primary) 0%, #2563eb 100%);
+}
+
+.meal-card:hover {
+  border-color: var(--primary-border);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.meal-step-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.meal-step-number {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--primary);
+  background: var(--primary-subtle);
+  border: 1px solid var(--primary-border);
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.meal-step-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.meal-step-name {
+  font-size: 1.02rem;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.meal-step-sub {
+  font-size: 0.76rem;
+  color: var(--text-subtle);
+  font-weight: 600;
+}
+
+.meal-step-desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+/* M&E Dashboard Grid (Metrics & Quarterly Trends) */
+.me-dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  margin-top: 12px;
+}
+
+.me-dashboard-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.me-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.me-icon-cyan {
+  color: var(--primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.me-card-header h3 {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.me-card-header p {
+  font-size: 0.82rem;
+  color: var(--text-subtle);
+  margin-top: 2px;
+}
+
+.metrics-bars-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.metric-bar-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.metric-bar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.88rem;
+}
+
+.metric-bar-label {
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.metric-bar-val {
+  font-weight: 800;
+  color: var(--primary);
+  font-family: var(--font-heading);
+}
+
+.metric-track {
+  height: 8px;
+  background: var(--bg-alt);
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.metric-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 1s ease-in-out;
+}
+
+/* Trends Bar Chart */
+.trends-chart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.trends-bar-chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  height: 160px;
+  padding: 10px 10px 0;
+  border-bottom: 1.5px solid var(--border);
+}
+
+.chart-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.chart-bars-group {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  width: 100%;
+  height: 120px;
+  justify-content: center;
+}
+
+.chart-bar {
+  width: 18px;
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  transition: height 0.6s ease;
+}
+
+.target-bar {
+  background: var(--bg-alt);
+  border: 1px dashed var(--text-subtle);
+}
+
+.achieved-bar {
+  background: linear-gradient(180deg, var(--primary) 0%, #2563eb 100%);
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.3);
+}
+
+.bar-val {
+  font-size: 0.68rem;
+  font-weight: 700;
+  position: absolute;
+  top: -18px;
+  color: var(--text-subtle);
+}
+
+.chart-quarter-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-top: 4px;
+}
+
+.chart-pct-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--primary-subtle);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.chart-legend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  font-size: 0.8rem;
+  color: var(--text-subtle);
+  margin-top: auto;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-box {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+}
+
+.target-box {
+  background: var(--bg-alt);
+  border: 1px dashed var(--text-subtle);
+}
+
+.achieved-box {
+  background: linear-gradient(135deg, var(--primary) 0%, #2563eb 100%);
+}
+
