@@ -35,14 +35,6 @@ export default function Hero({ onCopyEmail }) {
         >
           <Linkedin size={16} /> LinkedIn
         </a>
-        <a
-          className="btn"
-          href={personalInfo.organizationUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Globe size={16} /> {personalInfo.organizationName}
-        </a>
         <button
           className="btn"
           onClick={() => onCopyEmail(personalInfo.email)}

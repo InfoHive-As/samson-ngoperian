@@ -27,14 +27,6 @@ export default function Contact({ onCopyEmail }) {
             <strong>Email:</strong>
             <a href={`mailto:${personalInfo.email}`}>{personalInfo.email}</a>
           </div>
-
-          <div className="contact-item">
-            <Globe size={16} />
-            <strong>Organization:</strong>
-            <a href={personalInfo.organizationUrl} target="_blank" rel="noopener noreferrer">
-              laikipiaconservancies.org
-            </a>
-          </div>
         </div>
 
         <div className="cta-row" style={{ marginTop: 24 }}>
@@ -48,14 +40,6 @@ export default function Contact({ onCopyEmail }) {
             rel="noopener noreferrer"
           >
             <Linkedin size={16} /> LinkedIn Profile
-          </a>
-          <a
-            className="btn"
-            href={personalInfo.organizationUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Globe size={16} /> Laikipia Conservancies
           </a>
           <button
             className="btn"
