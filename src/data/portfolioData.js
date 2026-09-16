@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Samson Ngoperian",
-  title: "M&E Specialist / Data Analyst | Biostatistics & Conservation Tech",
+  title: "M&E and Data Analyst | Biostatistics & Conservation Tech",
   shortTitle: "M&E Specialist / Data Analyst",
   location: "Doldol / Nanyuki, Laikipia County, Kenya",
   email: "samsonngoperian93@gmail.com",
@@ -19,7 +19,7 @@ export const statsData = [
 ];
 
 export const aboutParagraphs = [
-  "I am a data-driven and enthusiastic M&E Specialist / Data Analyst with a strong background in biostatistics from Jomo Kenyatta University of Agriculture and Technology (JKUAT). Flexible, collaborative, and solutions-oriented, I am committed to meeting organizational targets and generating actionable data insights for growth and evidence-based decision-making.",
+  "I am a data-driven and enthusiastic M&E and Data Analyst with a strong background in biostatistics from Jomo Kenyatta University of Agriculture and Technology (JKUAT). Flexible, collaborative, and solutions-oriented, I am committed to meeting organizational targets and generating actionable data insights for growth and evidence-based decision-making.",
   "Currently serving as a Monitoring and Evaluation Officer at the Laikipia Conservancies Association (LCA) in Nanyuki, I design and implement M&E frameworks, build data collection methodologies, analyze quantitative and qualitative conservation data, and manage spatial and ecological databases including EarthRanger, SMART, QGIS, and ArcGIS.",
   "My expertise spans biometrics research with the Kenya Forestry Research Institute (KEFRI), field data collection using ODK Collect, KoboToolbox, CAPI, and Epicollect, statistical programming (R, SPSS, STATA, Python, Genstat), GIS mapping, and community stakeholder engagement across Laikipia County."
 ];

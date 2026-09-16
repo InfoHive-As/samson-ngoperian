@@ -177,18 +177,24 @@ a:hover {
 }
 
 .logo-text {
-  font-weight: 700;
-  font-size: 1.05rem;
-  color: var(--text);
   display: flex;
   flex-direction: column;
   line-height: 1.2;
 }
 
-.logo-text span {
-  font-size: 0.72rem;
+.logo-name {
+  font-weight: 800;
+  font-size: 0.98rem;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.logo-sub {
+  font-size: 0.70rem;
   color: var(--text-subtle);
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
 }
 
 .nav-desktop {

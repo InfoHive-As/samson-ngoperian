@@ -43,8 +43,8 @@ export default function Navbar({ theme, toggleTheme }) {
             SN
           </a>
           <div className="logo-text">
-            <span>{personalInfo.name}</span>
-            <span>{personalInfo.shortTitle}</span>
+            <span className="logo-name">{personalInfo.name}</span>
+            <span className="logo-sub">{personalInfo.shortTitle}</span>
           </div>
         </div>
 
