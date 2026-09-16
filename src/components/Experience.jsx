@@ -10,7 +10,7 @@ export default function Experience() {
           <Briefcase size={24} /> Work Experience
         </h2>
         <p className="section-subtitle">
-          Proven track record in M&E, digital data collection, statistical analysis & evidence-driven reporting
+          Proven track record across conservancies, KEFRI biometrics research, county government & KNBS census enumeration
         </p>
       </div>
 

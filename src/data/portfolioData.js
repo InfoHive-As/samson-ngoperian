@@ -1,195 +1,282 @@
 export const personalInfo = {
   name: "Samson Ngoperian",
-  title: "Monitoring & Evaluation Specialist | Results-Based Programming & Data Analysis",
-  shortTitle: "M&E Specialist",
-  location: "Nanyuki, Laikipia County, Kenya",
-  email: "samson.ngoperian@gmail.com",
-  phones: ["+254 700 000 000"],
+  title: "M&E and Data Analyst | Biostatistics & Conservation Tech",
+  shortTitle: "M&E and Data Analyst",
+  location: "Doldol / Nanyuki, Laikipia County, Kenya",
+  email: "samsonngoperian93@gmail.com",
+  phones: ["+254 758 791 323"],
   linkedIn: "https://www.linkedin.com/in/samson-ngoperian-8487bb226",
   organizationUrl: "https://laikipiaconservancies.org",
   organizationName: "Laikipia Conservancies Association",
-  tagline: "Transforming Data into Evidence, Insights and Impact across Conservation & Development Programmes"
+  tagline: "Biostatistics • M&E Frameworks • EarthRanger & SMART Databases • GIS Mapping (QGIS/ArcGIS) • R, Python & SPSS Data Analytics"
 };
 
 export const statsData = [
-  { value: "3+ Years", label: "M&E Experience", desc: "Conservation & research data" },
-  { value: "95%", label: "Data Quality Index", desc: "Rigorous verification & validation" },
-  { value: "20+", label: "Reports Delivered", desc: "Evidence summaries & donor briefs" },
-  { value: "15+", label: "Indicators Tracked", desc: "Conservation & community targets" }
+  { value: "BSc", label: "Biostatistics", desc: "Jomo Kenyatta University (JKUAT)" },
+  { value: "M&E Officer", label: "Current Role", desc: "Laikipia Conservancies Association" },
+  { value: "EarthRanger", label: "Spatial Tech", desc: "& SMART Tool Conservation Systems" },
+  { value: "R / Python", label: "Data Analytics", desc: "SPSS, STATA, QGIS & ArcGIS" }
 ];
 
 export const aboutParagraphs = [
-  "I am a dedicated Monitoring and Evaluation professional based in Nanyuki, Kenya, currently serving as a Monitoring & Evaluation (M&E) Officer at the Laikipia Conservancies Association. My work supports evidence-based decision making for conservation and community development programmes across Laikipia County.",
-  "With a strong foundation in data collection, estimation, evaluation, monitoring, analysis, and interpretation — developed through earlier experience with the Kenya Forestry Research Institute (KEFRI) — I bring a rigorous, analytical approach to understanding programme performance and impact.",
-  "I am passionate about transforming raw data into actionable evidence that drives learning, improves programme design, and ultimately creates meaningful impact for communities and natural resource management initiatives across the full MEAL (Monitoring, Evaluation, Accountability, and Learning) cycle."
+  "I am a data-driven and enthusiastic M&E and Data Analyst with a strong background in biostatistics from Jomo Kenyatta University of Agriculture and Technology (JKUAT). Flexible, collaborative, and solutions-oriented, I am committed to meeting organizational targets and generating actionable data insights for growth and evidence-based decision-making.",
+  "Currently serving as a Monitoring and Evaluation Officer at the Laikipia Conservancies Association (LCA) in Nanyuki, I design and implement M&E frameworks, build data collection methodologies, analyze quantitative and qualitative conservation data, and manage spatial and ecological databases including EarthRanger, SMART, QGIS, and ArcGIS.",
+  "My expertise spans biometrics research with the Kenya Forestry Research Institute (KEFRI), field data collection using ODK Collect, KoboToolbox, CAPI, and Epicollect, statistical programming (R, SPSS, STATA, Python, Genstat), GIS mapping, and community stakeholder engagement across Laikipia County."
 ];
 
 export const experienceData = [
   {
     id: 1,
-    role: "Monitoring & Evaluation (M&E) Officer",
-    company: "Laikipia Conservancies Association (LCA)",
-    location: "Nanyuki, Laikipia County, Kenya",
-    period: "Present",
+    role: "Monitoring and Evaluation Officer",
+    company: "Laikipia Conservancies Association",
+    location: "Nanyuki, Laikipia County",
+    period: "April 2025 – Present",
     current: true,
     highlights: [
-      "Support programme monitoring and indicator tracking across multiple conservation and community development programmes.",
-      "Contribute to digital data collection and quality assurance processes in the field using tools like KoboToolbox and ODK.",
-      "Assist in preparing monitoring reports, performance updates, and evidence summaries for stakeholders and donors.",
-      "Support learning and knowledge management activities within the organization to drive adaptive management.",
-      "Collaborate with programme teams to ensure strict alignment with donor compliance requirements.",
-      "Supporting evidence-based decision making for conservation initiatives across member conservancies."
+      "Develop and implement M&E framework to track project goals, outcomes, and impacts across member conservancies.",
+      "Design tools and methodologies for quantitative and qualitative data collection and statistical data analysis.",
+      "Analyze quantitative and qualitative data using Advanced Excel, Google Sheets, SPSS, R, and Python.",
+      "Maintain central databases to store and track project-related conservation and community metrics.",
+      "Manage organizational EarthRanger and SMART tool databases for real-time spatial monitoring.",
+      "Conduct training sessions on data collection and reporting for conservation teams using SMART and EarthRanger.",
+      "Organize periodic field visits to assess project progress and provide evidence-based recommendations.",
+      "Curate GIS spatial maps using QGIS and ArcGIS to analyze conservation trends, wildlife movements, and rangeland patterns."
     ],
-    tags: ["Programme Monitoring", "Indicator Tracking", "KoboToolbox", "Report Preparation", "Donor Compliance"]
+    tags: ["M&E Frameworks", "EarthRanger", "SMART Tool", "R & Python", "QGIS & ArcGIS", "Capacity Building"]
   },
   {
     id: 2,
-    role: "Data Collection & Analysis Specialist",
-    company: "Kenya Forestry Research Institute (KEFRI)",
-    location: "Kenya",
-    period: "Previous",
+    role: "Data Analyst - Internship",
+    company: "Laikipia Conservancies Association",
+    location: "Nanyuki, Laikipia County",
+    period: "Jan 2024 – March 2025",
     current: false,
     highlights: [
-      "Performed data collection, estimation, evaluation, and systematic monitoring of field research data.",
-      "Conducted analysis and interpretation of research data to support forestry and natural resource management programmes.",
-      "Supported research documentation and knowledge products for policy and academic stakeholders.",
-      "Collaborated with interdisciplinary research teams on data quality, validation, and field sampling methodologies.",
-      "Contributed to research evidence supporting sustainable forestry management policies."
+      "Digitized mobile data collection tools using Kobo Collect, ODK, and Epicollect for field teams.",
+      "Performed data cleaning, manipulation, and MySQL database management.",
+      "Conducted quantitative data analysis (Python, R, SPSS) and thematic qualitative content analysis.",
+      "Applied EarthRanger and SMART tools for field monitoring, spatial cartography, and geodatabase administration.",
+      "Supported proposal writing and grant development utilizing logical frameworks and systems thinking.",
+      "Facilitated community engagement, situational analysis, meta-analysis, and field report validation."
     ],
-    tags: ["Data Collection", "Statistical Analysis", "KEFRI", "Field Estimation", "Forestry Research"]
+    tags: ["Kobo Collect", "ODK", "MySQL", "Python Analytics", "Spatial Cartography", "LogFrames"]
+  },
+  {
+    id: 3,
+    role: "Laikipia County Agripreneur / Enumerator",
+    company: "Laikipia County Government",
+    location: "Laikipia County",
+    period: "August 2023 – Nov 2023",
+    current: false,
+    highlights: [
+      "Collected agricultural and livestock field data for the Department of Agriculture, Livestock and Fisheries using ODK Collect.",
+      "Engaged directly with livestock farmers to document field challenges and support livestock management data workflows."
+    ],
+    tags: ["ODK Collect", "Agricultural Data", "Field Enumeration", "Livestock Monitoring"]
+  },
+  {
+    id: 4,
+    role: "Biometrics Department Attache / Researcher",
+    company: "Kenya Forestry Research Institute (KEFRI)",
+    location: "Kenya",
+    period: "Jan 2023 – April 2023 & Jan 2021 – April 2021",
+    current: false,
+    highlights: [
+      "Performed data collection, data coding, cleaning, validation, and visualization for biometrics research.",
+      "Analyzed data using R, SPSS, STATA, Python, and GENSTAT, formulating SMART objectives and data analysis plans.",
+      "Determined sampling methods, sample sizes, research proposals, and research project writing.",
+      "Administered questionnaires, field interviews, and developed data collection tools (ODK, Kobo, Epicollect).",
+      "Calculated estimation, evaluation, monitoring, and database management for forestry research."
+    ],
+    tags: ["Biostatistics", "KEFRI", "R & STATA", "GENSTAT", "Sample Size Determination"]
+  },
+  {
+    id: 5,
+    role: "Data Collection Officer – Mukogodo Forest Valuation",
+    company: "ILMAMUSI Forest Association",
+    location: "Mukogodo Forest, Laikipia",
+    period: "Jan 2021 – April 2021",
+    current: false,
+    highlights: [
+      "Served as research assistant and data collection officer for the Mukogodo Forest ecosystem valuation project.",
+      "Gathered ecological data and community socio-economic survey data for forest conservation planning."
+    ],
+    tags: ["Ecosystem Valuation", "Forest Conservation", "Field Surveys", "Community Engagement"]
+  },
+  {
+    id: 6,
+    role: "Census Enumerator (CAPI)",
+    company: "Kenya National Bureau of Statistics (KNBS)",
+    location: "Kenya",
+    period: "July 2019 – August 2019",
+    current: false,
+    highlights: [
+      "Collected household census data during the 2019 Kenya National Population and Housing Census (KNPHC).",
+      "Utilized Computer-Assisted Personal Interviewing (CAPI) digital machines for accurate data capture."
+    ],
+    tags: ["KNPHC Census", "CAPI Technology", "National Data Collection"]
   }
 ];
 
 export const educationData = [
   {
     id: 1,
-    degree: "Monitoring, Evaluation & Data Analysis",
-    specialization: "Results-Based Management",
-    institution: "Higher Education Institution",
-    period: "Academic Qualification",
-    status: "Verified",
-    details: "Focus on results-based management, statistical data analysis, quantitative & qualitative research methodology, and evidence-driven programme evaluation."
+    degree: "Bachelor of Science in Biostatistics",
+    specialization: "Biostatistics & Data Science",
+    institution: "Jomo Kenyatta University of Agriculture and Technology (JKUAT)",
+    period: "Completed 2023",
+    status: "Graduated",
+    details: "Focus on statistical theory, biometrics, experimental design, data analysis algorithms (R, Python, SPSS, STATA), sampling methodologies, and data visualization."
   },
   {
     id: 2,
-    degree: "Secondary Education",
-    specialization: "KCSE Certificate",
-    institution: "Kenya Secondary School",
+    degree: "Certificate in Monitoring and Evaluation",
+    specialization: "M&E Systems & Frameworks",
+    institution: "JKUATES ENTERPRISES",
+    period: "Completed 2022",
+    status: "Certified",
+    details: "M&E framework design, indicator tracking, logical frameworks (LogFrames), field evaluation, and data reporting."
+  },
+  {
+    id: 3,
+    degree: "Certificate in Ecology and Legacy",
+    specialization: "Ecological Studies",
+    institution: "University of Utah",
     period: "Completed",
-    status: "Completed",
-    details: "Kenya Certificate of Secondary Education (KCSE)"
+    status: "Certified",
+    details: "Ecological monitoring, biodiversity data principles, and conservation legacy management."
+  },
+  {
+    id: 4,
+    degree: "Kenya Certificate of Secondary Education (KCSE)",
+    specialization: "Secondary Education",
+    institution: "Secondary Education",
+    period: "Completed 2018",
+    status: "KCSE Certificate",
+    details: "Kenya Certificate of Secondary Education qualification."
   }
 ];
 
 export const skillCategories = [
   { id: "all", label: "All Skills" },
-  { id: "me", label: "M&E & Results" },
-  { id: "data", label: "Data Collection & Tools" },
-  { id: "analysis", label: "Data Analysis & Viz" },
-  { id: "research", label: "Research & Learning" }
+  { id: "stats", label: "Biostatistics & Analytics" },
+  { id: "me", label: "M&E & LogFrames" },
+  { id: "gis", label: "GIS & Conservation Tech" },
+  { id: "tools", label: "Digital Data Tools" }
 ];
 
 export const skillsData = [
   {
+    category: "stats",
+    title: "Biostatistics & Data Analysis",
+    skills: ["R Programming", "Python Analytics", "SPSS", "STATA", "GENSTAT", "Advanced Excel", "Google Sheets", "MySQL", "Data Cleaning & Validation", "Statistical Modeling", "Sample Size Determination"]
+  },
+  {
     category: "me",
     title: "Monitoring & Evaluation",
-    skills: ["Programme Monitoring", "Results-Based Management", "Indicator Development", "Performance Measurement", "Monitoring Frameworks", "Data Quality Assurance", "Impact Assessment"]
+    skills: ["M&E Framework Design", "Indicator Tracking", "Logical Frameworks (LogFrames)", "Data Quality Assurance", "Impact Assessment", "Situational Analysis", "Meta-Analysis", "Report Validation"]
   },
   {
-    category: "data",
-    title: "Data Collection & Management",
-    skills: ["Digital Data Collection", "Survey Design", "KoboToolbox", "ODK (Open Data Kit)", "Data Cleaning", "Data Validation", "Database Management"]
+    category: "gis",
+    title: "GIS & Spatial Technology",
+    skills: ["QGIS", "ArcGIS", "Spatial Data Analysis", "Cartography & Map Creation", "Geodatabase Management", "EarthRanger Database", "SMART Tool Database"]
   },
   {
-    category: "analysis",
-    title: "Data Analysis & Visualization",
-    skills: ["Microsoft Excel", "Power BI", "Tableau", "R", "Python", "SPSS", "Statistical Analysis", "Dashboard Development"]
-  },
-  {
-    category: "research",
-    title: "Research & Learning",
-    skills: ["Quantitative Research", "Qualitative Research", "Report Writing", "Research Methodology", "Knowledge Management", "Learning & Adaptation"]
+    category: "tools",
+    title: "Digital Data Collection Tools",
+    skills: ["Kobo Collect", "ODK (Open Data Kit)", "Epicollect", "CAPI Machines", "Digital Survey Design", "Field Questionnaire Administration"]
   }
 ];
 
 export const certificationsData = [
   {
-    title: "Results-Based Monitoring & Evaluation",
-    issuer: "M&E Professional Training",
-    description: "M&E Frameworks · Indicator Development · Results-Based Management",
+    title: "Certificate in M&E",
+    issuer: "JKUATES ENTERPRISES",
+    description: "M&E Frameworks · LogFrames · Indicator Tracking (2022)",
     badge: "Certified"
   },
   {
-    title: "Digital Data Collection (KoboToolbox & ODK)",
-    issuer: "Data & Tech Training",
-    description: "Mobile Survey Design · Field Data Workflow · Quality Assurance",
+    title: "Certificate in Ecology and Legacy",
+    issuer: "University of Utah",
+    description: "Ecological Monitoring · Conservation Principles",
     badge: "Certified"
   },
   {
-    title: "Data Analysis & Visualization (Power BI & Excel)",
-    issuer: "Analytics Certification",
-    description: "Dashboard Development · Data Cleaning · Statistical Insights",
-    badge: "Certified"
+    title: "Good Leadership Award",
+    issuer: "JKUBSA Group",
+    description: "Leadership Certificate & Group Representation (Oct 2023)",
+    badge: "Award"
   },
   {
-    title: "Donor Compliance & Reporting",
-    issuer: "Programme Management Certificate",
-    description: "Donor Compliance · Stakeholder Briefings · Evidence Summaries",
-    badge: "Certified"
-  },
-  {
-    title: "Research Methodology & Data Interpretation",
-    issuer: "KEFRI / Research Training",
-    description: "Forestry Research · Quantitative Analysis · Data Validation",
-    badge: "Certified"
+    title: "Data Hackathon Certification",
+    issuer: "Palladium Kenya",
+    description: "Data Innovation & Analytics Hackathon (June 2022)",
+    badge: "Hackathon"
   }
 ];
 
 export const initiativeCategories = [
   { id: "all", label: "All Projects" },
-  { id: "me", label: "Monitoring & Evaluation" },
-  { id: "research", label: "Research & Data Analysis" }
+  { id: "me", label: "M&E & Conservation" },
+  { id: "research", label: "Biometrics & Research" },
+  { id: "gis", label: "GIS & Spatial Maps" }
 ];
 
 export const initiativesData = [
   {
     id: 1,
     category: "me",
-    title: "Laikipia Conservation Programme Monitoring",
-    badge: "Active M&E",
+    title: "EarthRanger & SMART Conservation System",
+    badge: "LCA Core System",
     badgeType: "live",
-    description: "Supporting monitoring and evaluation activities for conservation and community development programmes at Laikipia Conservancies Association, tracking 15+ indicators and contributing to evidence-based management.",
-    stack: ["Programme Monitoring", "Indicator Tracking", "LCA", "KoboToolbox"],
+    description: "Managing organizational EarthRanger and SMART databases at Laikipia Conservancies Association to track wildlife, rangeland health, and conservation indicators.",
+    stack: ["EarthRanger", "SMART Tool", "QGIS", "M&E Frameworks"],
     link: "https://laikipiaconservancies.org",
     linkLabel: "View LCA Website →"
   },
   {
     id: 2,
     category: "research",
-    title: "KEFRI Forestry Research & Data Estimation",
+    title: "KEFRI Biometrics & Research Analysis",
     badge: "Research Project",
     badgeType: "os",
-    description: "Conducted data collection, estimation, statistical analysis, and field monitoring for forestry research programmes at KEFRI, generating evidence for natural resource management policies.",
-    stack: ["Data Collection", "Statistical Analysis", "KEFRI", "Field Estimation"],
+    description: "Statistical data analysis, sample size determination, data coding, and modeling using R, SPSS, STATA, Python, and GENSTAT for forestry research.",
+    stack: ["Biostatistics", "R", "SPSS", "STATA", "GENSTAT", "KEFRI"],
     link: null
   },
   {
     id: 3,
-    category: "me",
-    title: "Methodology: From Data to Better Decisions",
-    badge: "MEAL Framework",
+    category: "gis",
+    title: "QGIS & ArcGIS Spatial Mapping",
+    badge: "GIS Mapping",
     badgeType: "live",
-    description: "Structured 7-step approach: Plan, Measure, Collect, Verify, Analyze, Learn, Improve — driving adaptive management and evidence-informed action.",
-    stack: ["MEAL Cycle", "Quality Assurance", "Adaptive Management", "Dashboards"],
+    description: "Curating spatial maps, geodatabases, and spatial trends analysis for conservation land use and wildlife corridor monitoring.",
+    stack: ["QGIS", "ArcGIS", "Cartography", "Spatial Data"],
+    link: null
+  },
+  {
+    id: 4,
+    category: "me",
+    title: "Kobo Collect & ODK Digital Workflows",
+    badge: "Digital Tools",
+    badgeType: "live",
+    description: "Designing and digitizing field data collection tools for mobile survey administration, data cleaning, and community validation.",
+    stack: ["Kobo Collect", "ODK", "Epicollect", "MySQL"],
     link: null
   }
 ];
 
 export const referencesData = [
   {
-    name: "Laikipia Conservancies Association (LCA)",
-    role: "Management & M&E Programme Team",
-    email: "info@laikipiaconservancies.org",
-    phone: "Nanyuki, Laikipia County, Kenya"
+    name: "PETER MATUNGE",
+    role: "CEO, Laikipia Conservancies Association",
+    email: "CEO@laikipiaconservancies.org",
+    phone: "+254 723 421 099"
+  },
+  {
+    name: "DR. VINCENT O. OEBA",
+    role: "Principal Scientist & Researcher (Biometrics), Kenya Forestry Research Institute (KEFRI)",
+    email: "vongusoeba@gmail.com",
+    phone: "+254 720 475 053"
   }
 ];

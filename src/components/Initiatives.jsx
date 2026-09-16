@@ -17,7 +17,7 @@ export default function Initiatives() {
           <Rocket size={24} /> Key Achievements & Publications
         </h2>
         <p className="section-subtitle">
-          Selected assignments, monitoring frameworks & data analysis projects
+          Key achievements across conservation databases, biometrics research, GIS spatial cartography & mobile survey tools
         </p>
       </div>
 

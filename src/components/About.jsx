@@ -10,7 +10,7 @@ export default function About() {
           <UserCheck size={24} /> About Me
         </h2>
         <p className="section-subtitle">
-          Monitoring & Evaluation, Results-Based Management & Data Analysis Specialist
+          Biostatistics, M&E Frameworks, EarthRanger & GIS Spatial Analytics Background
         </p>
       </div>
 

@@ -17,7 +17,7 @@ export default function Skills() {
           <Wrench size={24} /> Skills & Core Competencies
         </h2>
         <p className="section-subtitle">
-          Specialized toolkit across M&E frameworks, digital data collection, analysis & research
+          Specialized toolkit across Biostatistics (R/Python/SPSS), M&E, EarthRanger, SMART & GIS Spatial Mapping
         </p>
       </div>
 

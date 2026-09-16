@@ -16,10 +16,11 @@ export default function Hero({ onCopyEmail }) {
       <p className="hero-tagline">{personalInfo.tagline}</p>
 
       <div className="hero-highlights">
-        <span className="highlight-chip"><MapPin size={13} /> Nanyuki, Laikipia</span>
-        <span className="highlight-chip">📊 M&E & Results-Based Mgmt</span>
-        <span className="highlight-chip">📱 KoboToolbox & ODK</span>
-        <span className="highlight-chip">📈 Power BI, R, Python & Excel</span>
+        <span className="highlight-chip"><MapPin size={13} /> Doldol / Nanyuki, Laikipia</span>
+        <span className="highlight-chip">📊 BSc Biostatistics (JKUAT)</span>
+        <span className="highlight-chip">📡 EarthRanger & SMART Tool</span>
+        <span className="highlight-chip">🗺️ QGIS & ArcGIS Mapping</span>
+        <span className="highlight-chip">💻 R, Python, SPSS & STATA</span>
       </div>
 
       <div className="cta-row">
