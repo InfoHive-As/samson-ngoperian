@@ -12,7 +12,7 @@ export default function Contact({ onCopyEmail }) {
           <Mail size={24} /> Let's Connect
         </h2>
         <p style={{ color: 'var(--text-muted)', fontSize: '1.02rem', marginBottom: 20 }}>
-          I am always open to discussing IT support roles, conservation technology initiatives, web development projects, biodiversity monitoring, and digital communication collaborations. Feel free to connect or reach out directly:
+          I am always open to discussing Monitoring & Evaluation (M&E) roles, biostatistics data analytics, GIS spatial mapping, and research collaborations. Feel free to connect or reach out directly:
         </p>
 
         <div className="contact-info">
@@ -32,7 +32,7 @@ export default function Contact({ onCopyEmail }) {
             <Globe size={16} />
             <strong>Organization:</strong>
             <a href={personalInfo.organizationUrl} target="_blank" rel="noopener noreferrer">
-              naibungalowerconservancy.org
+              laikipiaconservancies.org
             </a>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function Contact({ onCopyEmail }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Globe size={16} /> Naibunga Conservancy
+            <Globe size={16} /> Laikipia Conservancies
           </a>
           <button
             className="btn"
